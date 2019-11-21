@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-16 05:16:24 PM"/>
+        <attribute name="created" value="aHA7SFAtUEM7MjAxOS0xMS0xNjswNDo1Njo1OSBQTTsxODU0"/>
+        <attribute name="edited" value="aHA7SFAtUEM7MjAxOS0xMS0xNjswNToxNjoyNCBQTTsxOzE5NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number" type="Real" array="False" size=""/>
+            <output expression="&quot;Hi, just Enter your chosen number&quot;" newline="True"/>
+            <input variable="Number"/>
+            <if expression="Number%2=0">
+                <then>
+                    <output expression="&quot;The Answer is Odd&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;The answer is Even&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
