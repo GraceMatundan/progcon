@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-06 10:18:35 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLTFTSEVPRks7MjAxOS0xMi0wNjswOToyODo1MiBBTTsyNzU5"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLTFTSEVPRks7MjAxOS0xMi0wNjsxMDoxODozNSBBTTsxOzI4NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello, Welcome to my program!&quot;" newline="True"/>
+            <declare name="Num1" type="Integer" array="False" size=""/>
+            <declare name="Num2" type="Integer" array="False" size=""/>
+            <declare name="Num3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Hi, kindly enter your first number.&quot;" newline="True"/>
+            <input variable="Num1"/>
+            <output expression="&quot;Please enter the second number&quot;" newline="True"/>
+            <input variable="Num2"/>
+            <output expression="&quot;Please enter your third number&quot;" newline="True"/>
+            <input variable="Num3"/>
+            <if expression="Num1&gt;Num2">
+                <then>
+                    <if expression="Num2&gt;Num3">
+                        <then>
+                            <output expression="&quot;The Third number that you have entered has the least value!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;The Second number that you have entered has the least value!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="Num1&gt;Num3">
+                        <then>
+                            <output expression="&quot;The Third number (Num3) has the least value&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;The first number(Num1)that you have entered has the least value&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
